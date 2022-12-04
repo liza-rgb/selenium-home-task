@@ -148,9 +148,7 @@ describe("Job Titles", () => {
         "Job Description"
       );
       expect(deletedJobTitle && deletedJobDescription).not.toBeDefined();
-
-      // quit the browser
-      driver.quit();
     });
+    afterEach(() => driver.quit());
   });
 });
