@@ -11,5 +11,8 @@
   "dependencies": {
     "chromedriver": "^107.0.3",
     "selenium-webdriver": "^4.6.1"
+  },
+  "devDependencies": {
+    "jasmine-spec-reporter": "^7.0.0"
   }
 }
